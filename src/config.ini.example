@@ -1,0 +1,31 @@
+apiVersion = "apps/v1.0.0"
+
+[metadata]
+name = "olx-watcher"
+app_url = "http://olx-watcher.com"
+labels[app] = "olx-watcher-worker"
+labels[description] = "Tracking prices for OLX products and their changes"
+labels[env] = "dev"
+
+[log]
+level = "info"
+
+[cache]
+type = "redis"
+;type = "file"
+exp = 600000
+
+[redis]
+host = "redis"
+port = 6379
+user = "redis"
+password = null
+
+[mail]
+subject = "The price of your tracked product has changed."
+message = "Please, visit to web page"
+sender = "admin@olx-watcher.com"
+
+[notifier]
+type = "mail"
+;type = "telegram"
