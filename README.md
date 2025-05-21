@@ -1,7 +1,7 @@
 # OLX Price Monitor
 
-[![Supported PHP Versions](https://img.shields.io/badge/PHP-8.2,%208.3,%208.4-blue)](https://github.com/Igor-ad/olx-monitor/)
-[![Test Coverage](https://img.shields.io/badge/Test%20Coverage-70%25-green)](https://github.com/Igor-ad/olx-monitor/)
+[![Supported PHP Versions](https://img.shields.io/badge/PHP-8.2,%208.3,%208.4-blue)](https://github.com/Nikita95727/OLX-Monitor/)
+[![Test Coverage](https://img.shields.io/badge/Test%20Coverage-70%25-green)](https://github.com/Nikita95727/OLX-Monitor/)
 
 ## Task Description
 
@@ -87,7 +87,7 @@ The service is built using:
 ## Installation
 
 ```bash
-git clone https://github.com/Igor-ad/olx-monitor.git
+git clone https://github.com/Nikita95727/OLX-Monitor.git
 cd /projects/olx-monitor
 
 # Set up environment
